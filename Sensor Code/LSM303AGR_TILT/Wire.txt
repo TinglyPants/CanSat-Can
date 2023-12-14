@@ -1,0 +1,4 @@
+VIN -> 5V
+SDA -> A4
+SCL -> A5
+GND -> GND
