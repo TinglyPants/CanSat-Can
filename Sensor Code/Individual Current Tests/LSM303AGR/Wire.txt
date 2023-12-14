@@ -1,0 +1,3 @@
+SDA -> A4
+SCL -> A5
+Setup Power accordingly.
