@@ -16,12 +16,13 @@ Adafruit_LIS2MDL lis2mdl = Adafruit_LIS2MDL(12345);
 long delayMS = 100;
 
 void setup() {
-  // Serial Initiation
+  // Serial Initiation•
   Serial.begin(115200);
 
   // Initiate Magnetometer
   if (!lis2mdl.begin()) {
     Serial.println("lis2mdl init failure.");
+    while(1){};
   }
   lis2mdl.enableAutoRange(true);
 
