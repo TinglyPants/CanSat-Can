@@ -14,7 +14,7 @@ Matthew WL Chalk 2023
 CCS811 ccs(CCS811_ADDR);
 BME280 bme;
 
-long delayMS = 100;
+long delayMS = 25;
 
 void setup() {
   Serial.begin(115200);

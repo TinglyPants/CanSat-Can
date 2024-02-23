@@ -13,7 +13,7 @@ Matthew WL Chalk 2023
 Adafruit_LSM303_Accel_Unified lsm303 = Adafruit_LSM303_Accel_Unified(54321);
 Adafruit_LIS2MDL lis2mdl = Adafruit_LIS2MDL(12345);
 
-long delayMS = 100;
+long delayMS = 1;
 
 void setup() {
   // Serial Initiation•

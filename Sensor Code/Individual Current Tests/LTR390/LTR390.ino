@@ -5,7 +5,7 @@
 
 Adafruit_LTR390 ltr = Adafruit_LTR390();
 
-unsigned long delayMS = 100;
+unsigned long delayMS = 25;
 
 void setup() {
   Serial.begin(115200);
